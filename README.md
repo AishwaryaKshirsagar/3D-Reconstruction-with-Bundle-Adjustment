@@ -8,10 +8,10 @@ This project focuses on 3D reconstruction from noisy 2D images using bundle adju
 ### Image Preprocessing: 
 Initial experiments with image segmentation models (DIS) to isolate the object.
 Keypoint Detection & Matching: Employed SIFT and ORB algorithms for feature extraction and matching across images.
-Filtering Matches: Applied optical flow-based assumptions to refine matches, ensuring only reliable correspondences were retained.
-![Results after segmentation](segment1.PNG)
-
-![Results after finding correspondences with SIFT and ORB](correspondences.PNG)
+Filtering Matches: Applied optical flow-based assumptions to refine matches, ensuring only reliable correspondences were retained.\
+![Results after segmentation](images/segment1.PNG) \
+\
+![Results after finding correspondences with SIFT and ORB](images/correspondences.PNG)
 
 
 ## Structure-from-Motion (SfM):
